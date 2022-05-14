@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Super Trunfo: Sakura CardCaptor </title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<body>
+    <div class="container">
+        <a href="https://www.linkedin.com/in/sarahcnog/" target="_blank"><img src="https://i.ibb.co/gP3ffb8/logo2.png" alt="blank" class="page-logo"><a>
+      <img src="https://i.ibb.co/GnFPvCF/logo-sakura.png" class="logo-jogo"
+            alt="">
+        <h1 class="page-title">SUPER TRUNFO: SAKURA CARDCAPTOR</h1>
+      <h2><u>COMO JOGAR:</u><br>
+        - Escolha seu player<br>
+      - Clique no botão SORTEAR CARTA<br>
+      - Escolha o atributo que você quer jogar<br>
+      - Clique no botão JOGAR<br>
+          - O jogo termina quando alguém possuir 40/54 cartas</h2><br>
+      <img src="https://i.ibb.co/T1DXxVn/sakura.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/4PMW6j9/shaoran.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/H4pn9gW/kero.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/VT8mBpt/yue.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/s1MgnxN/tomoyo.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/TgYDzJk/Touya.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/FwQLpYQ/yukito.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/6HC6f3t/eriol.png" class="jogadores"
+            alt=""> <img src="https://i.ibb.co/ZhBZm5p/Spinel.png" class="jogadores"
+            alt="">
+                <br><br>
+                    <select name="player" id="player">
+  <option value="Sakura">Sakura</option>
+  <option value="Shaoran">Shaoran</option>
+  <option value="Kero">Kero</option>
+  <option value="Yue">Yue</option>
+            <option value="Tomoyo">Tomoyo</option>
+            <option value="Touya">Touya</option>
+            <option value="Yukito">Yukito</option>
+            <option value="Eriol">Eriol</option>
+            <option value="Spinel">Spinel</option>
+</select> 
+                    <button onclick="escolhaPlayer()" id="definePlayer" abled="true">Escolha seu player</button> 
+          <br> 
+          <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>  
+      <form id="form">
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="https://i.ibb.co/GCPrLJj/carta-sakura-versopng.png"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="https://i.ibb.co/GCPrLJj/carta-sakura-versopng.png"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div class="resultado" id="resultado"></div>
+        <div class="linha">
+    <div class="coluna-50">
+      <div class="placarJogador" id="placarJogador"></div></div>
+          <div class="coluna-50"><div class="placarMaquina" id="placarMaquina"></div> </div>
+        </div>
+         <br><br><div class="fimJogo" id="endgame"></div> 
+        <button class="novoJogo" type="button" id="reset" onclick="novoJogo()" disabled="false">Resetar jogo</button>
+        </form>
+    </div>
+  
+  <center>As imagens usadas nas cartas foram feitas pelo artista <a href="https://www.deviantart.com/chibidondc" target="_blank">ChibDonDC</a>.</center>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
