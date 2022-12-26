@@ -1,6 +1,6 @@
 # SUPER TRUNFO: SARAKURA CARDCAPTOR
 
-| :placard: Vitrine.Dev | https://cursos.alura.com.br/vitrinedev/sarahcnog  |
+| :placard: Vitrine.Dev |   |
 | -------------  | --- |
 | :sparkles: Nome        | **Super Trunfo: Sakura CardCaptor**
 | :label: Tecnologias | java, html, CSS
