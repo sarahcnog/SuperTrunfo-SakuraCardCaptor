@@ -1,7 +1,5 @@
 # SUPER TRUNFO: SARAKURA CARDCAPTOR
 
-Rápida descrição do objetivo de fazer esse projeto
-
 | :placard: Vitrine.Dev | https://cursos.alura.com.br/vitrinedev/sarahcnog  |
 | -------------  | --- |
 | :sparkles: Nome        | **Super Trunfo: Sakura CardCaptor**
